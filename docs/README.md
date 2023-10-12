@@ -13,7 +13,7 @@ Library for finding perimeters and areas of geometric shapes.
 
     '''
     r = 5
-    S = area(r)
+    S = area(r) -> S = 78.5
     '''
     
 
@@ -27,7 +27,7 @@ Library for finding perimeters and areas of geometric shapes.
     '''
     a = 14
     b = 13
-    S = area(a, b)
+    S = area(a, b) -> S = 182
     '''
 
 ### - Square: S = a²
@@ -39,7 +39,7 @@ Library for finding perimeters and areas of geometric shapes.
 
     '''
     a = 12
-    S = area(a)
+    S = area(a) -> S = 144
     '''
 
 ### - Triangle: S = a*h/2
@@ -52,7 +52,7 @@ Library for finding perimeters and areas of geometric shapes.
     '''
     a = 6
     h = 22
-    Area = triangle.area(a, h)
+    Area = triangle.area(a, h) -> S = 66
     '''
 
 
@@ -66,7 +66,7 @@ Library for finding perimeters and areas of geometric shapes.
 
     '''
     r = 12
-    LenghtCircle = perimeter(r)
+    LenghtCircle = perimeter(r) -> LenghtCircle = 75,36
     '''
 
 ### - Rectangle: P = (a + b) * 2
@@ -80,7 +80,7 @@ Library for finding perimeters and areas of geometric shapes.
     '''
     a = 12
     b = 10
-    P = perimeter(a,)
+    P = perimeter(a,) -> P = 44
     '''
 
 ### - Square: P = 4a
@@ -92,7 +92,7 @@ Library for finding perimeters and areas of geometric shapes.
 
     '''
     a = 12
-    P = perimeter(a)
+    P = perimeter(a) -> P = 48
     '''
 
 
@@ -107,7 +107,7 @@ Library for finding perimeters and areas of geometric shapes.
     a = 12
     b = 8
     c = 6
-    P = perimeter(a, b, c)
+    P = perimeter(a, b, c) -> P = 26
     '''
 
 ## Description of functions
