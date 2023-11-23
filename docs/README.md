@@ -206,6 +206,7 @@
 ## Tests
 
 Manual passed: 8/24 (0.33%)
+
 Autotests passed: 8/24 (0.33%) 
 
 ## History of project
