@@ -1,10 +1,10 @@
 import unittest
 
 
-class RectangleTestCase(unittest.TestCase):
+class RectTestCase(unittest.TestCase):
 
     """
-    Class of tests for Triangle.py func
+    Class of tests for Rectangle.py func
     :param: unittest (TestCase) parent class
     """
 
