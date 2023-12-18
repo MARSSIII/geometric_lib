@@ -209,6 +209,9 @@ Manual passed: 8/24 (0.33%)
 
 Autotests passed: 8/24 (0.33%) 
 
+Unittest on Ubuntu check - FAILED
+Unittest on Windows check - FAILED
+
 ## History of project
 
 | Date                           | branch              | Hash    | Author                                              | Comments                                                                                       |
