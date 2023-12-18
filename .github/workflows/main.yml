@@ -22,20 +22,20 @@ jobs:
       - name: run unittest Square
         run: python -m unittest square.py
 
-    Run-tests-on-Windows:
-      name: Unittest on Windows
-      runs-on: windows-latest
-      steps:
-        - uses: actions/checkout@v3
-        - name: run unittest Circle
-          run: python -m unittest circle.py
+  Run-tests-on-Windows:
+     name: Unittest on Windows
+     runs-on: windows-latest
+     steps:
+       - uses: actions/checkout@v3
+       - name: run unittest Circle
+         run: python -m unittest circle.py
           
-        - name: run unittest Triangle
-          run: python -m unittest triangle.py
+       - name: run unittest Triangle
+         run: python -m unittest triangle.py
           
-        - name: run unittest Rectangle
-          run: python -m unittest rectangle.py
+       - name: run unittest Rectangle
+         run: python -m unittest rectangle.py
 
-        - name: run unittest Square
-          run: python -m unittest Square.py
+       - name: run unittest Square
+         run: python -m unittest Square.py
     
