@@ -1,21 +1,22 @@
 # Math formulas
-Library for finding perimeters and areas of geometric shapes.     
-(Библиотека для поиска периметров и площадей геометрических фигур.)
-## Area - examples of using
+## Area	Library for finding perimeters and areas of geometric shapes.
+- Circle: S = πR²	(Библиотека для поиска периметров и площадей геометрических фигур.)
+- Rectangle: S = ab	## Area - examples of using
+- Square: S = a²
 
 ### - Circle: S = πR²
-  
-Функция принимает значение **r** - радиус окружности.    
-
-По формуле **π * R²** , где **π = math.pi** и **R² = r * r**, возвращает значение площади **S** окружности.
+## Perimeter
+- Circle: P = 2πR	Функция принимает значение **r** - радиус окружности.
+- Rectangle: P = 2a + 2b
+- Square: P = 4a	По формуле **π * R²** , где **π = math.pi** и **R² = r * r**, возвращает значение площади **S** окружности.
 
 *Пример вызова функции:*
 
     '''
     r = 5
-    S = area(r) -> S = 78.5
+    S = area(r)
     '''
-    
+
 
 ### - Rectangle: S = ab
 Функция принимает два значения **a** - ширина прямогульника и **b** - длина прямоугольника
@@ -27,32 +28,32 @@ Library for finding perimeters and areas of geometric shapes.
     '''
     a = 14
     b = 13
-    S = area(a, b) -> S = 182
+    S = area(a, b)
     '''
 
 ### - Square: S = a²
 Функция принимает значение **a** - сторона квадрата.
 
-По формуле **a * a** функция возвращает значение площади **S** квадрата. 
+По формуле **a * a** функция возвращает значение площади **S** квадрата.
 
 *Пример вызова функции:*
 
     '''
     a = 12
-    S = area(a) -> S = 144
+    S = area(a)
     '''
 
 ### - Triangle: S = a*h/2
 Функция принимает значение **a** - сторона треугольника и **h** - высота треугольника.
 
-По формуле **(a * h) / 2** функция возвращает значение площади **S** треугольника. 
+По формуле **(a * h) / 2** функция возвращает значение площади **S** треугольника.
 
 *Пример вызова функции:*
 
     '''
     a = 6
     h = 22
-    Area = triangle.area(a, h) -> S = 66
+    Area = triangle.area(a, h)
     '''
 
 
@@ -60,46 +61,46 @@ Library for finding perimeters and areas of geometric shapes.
 ### - Circle: P = 2πR
 Функция принимает значение **r** - радиус окружности.
 
-По формуле **2 * π * R**, где π = math.pi, функция возвращает значение длины **P** окружности. 
+По формуле **2 * π * R**, где π = math.pi, функция возвращает значение длины **P** окружности.
 
 *Пример вызова функции:*
 
     '''
     r = 12
-    LenghtCircle = perimeter(r) -> LenghtCircle = 75,36
+    LenghtCircle = perimeter(r)
     '''
 
 ### - Rectangle: P = (a + b) * 2
 
 Функция принимает значение **a** - ширина прямоугольника и **b** - длина прямоугольника.
 
-По формуле **(a + b) * 2** функция возвращает значение периментра **P** прямоугольника. 
+По формуле **(a + b) * 2** функция возвращает значение периментра **P** прямоугольника.
 
 *Пример вызова функции:*
 
     '''
     a = 12
     b = 10
-    P = perimeter(a,) -> P = 44
+    P = perimeter(a,)
     '''
 
 ### - Square: P = 4a
 Функция принимает значение **a** - сторона квадрата.
 
-По формуле **a * 4** функция возвращает значение периментра **P** квадрата. 
+По формуле **a * 4** функция возвращает значение периментра **P** квадрата.
 
 *Пример вызова функции:*
 
     '''
     a = 12
-    P = perimeter(a) -> P = 48
+    P = perimeter(a)
     '''
 
 
 ### - Triangle: P = a+b+c
 Функция принимает значение **a** - сторона треугольника, **b** - сторона треугольника, **c** - сторона треугольника.
 
-По формуле **a + b + c** функция возвращает значение периментра **P** треугольника. 
+По формуле **a + b + c** функция возвращает значение периментра **P** треугольника.
 
 *Пример вызова функции:*
 
@@ -107,14 +108,14 @@ Library for finding perimeters and areas of geometric shapes.
     a = 12
     b = 8
     c = 6
-    P = perimeter(a, b, c) -> P = 26
+    P = perimeter(a, b, c)
     '''
 
 ## Description of functions
 
-### - circle.py 
+### - circle.py
 1. **area()**
-   
+
 Функция принимает в качестве параметра число **r**.
 
 Возвращает произведение числа Пи на r в квадрате
@@ -192,7 +193,7 @@ Library for finding perimeters and areas of geometric shapes.
     :return: произведение чисел 1/2, a, h.
 
 1. **perimetr()**
-   
+
 Функция принимает в качестве параметров числа **a**, **b**, **c**.
 
 Возращает сумму чисел **a** + **b** + **c**.
@@ -202,13 +203,20 @@ Library for finding perimeters and areas of geometric shapes.
     :param c: число c - сторона треугольника.
     :return: сумма чисел a, b, c.
 
+## Tests
+
+Manual passed: 8/24 (0.33%)
+
+Autotests passed: 8/24 (0.33%) 
+
 ## History of project
 
-| Date           | branch        | Hash      | Author        | Comments         |
-|-----------------|-----------------|-----------------|-------------------|-------------|
-| Wed Oct 11 21:47:48 2023 +0300 | documentation_343109 | d8e44c304504856306729ff89ad0b935b7ffb8e5| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | fix: add comments in circle.py, rectangle.py, square.py, triangle.py
-|  Wed Sep 27 21:41:21 2023 +0300 | main | 07584aac29022476653568476a52415d4a8fea3c |  alex <asd> | fix, feat: create file rectange.py and add new file triangle.py |
-| Wed Sep 27 21:29:12 2023 +0300 | main | f7068021310aa96500745c2b6557fef9d4c9208f | alex <asd> | feat: add new file rectangle.py |
-| Thu Mar 4 14:55:29 2021 +0300| main |d078c8d9ee6155f3cb0e577d28d337b791de28e |  smartiqa <info@smartiqa.ru> | L-03: Docs added |
-| Thu Mar 4 14:54:08 2021 +0300 | main | 8ba9aeb3cea847b63a91ac378a2a6db758682460 | smartiqa <info@smartiqa.ru> |  L-03: Circle and square added
-|
+| Date                           | branch              | Hash    | Author                                              | Comments                                                                                       |
+|--------------------------------|---------------------|---------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Thu Nov 23 10:08:15 2023 +0300 | tests_343109        |c6e12fcccfa7da6b5997060576a72223e8776c86| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | tests and refactor: added tests in Triangle.py and Square.py, change square.py test class name |                                                                     |
+| Wed Nov 22 20:54:58 2023 +0300 | tests_343109        |c6e12fcccfa7da6b5997060576a72223e8776c86| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | test: added tests in Circle.py and Rectangle.py                                                |
+| Wed Oct 11 21:47:48 2023 +0300 | documentation_343109 | d8e44c304504856306729ff89ad0b935b7ffb8e5| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | fix: add comments in circle.py, rectangle.py, square.py, triangle.py                           |
+| Wed Sep 27 21:41:21 2023 +0300 | main                | 07584aac29022476653568476a52415d4a8fea3c | alex <asd>                                          | fix, feat: create file rectange.py and add new file triangle.py                                |
+| Wed Sep 27 21:29:12 2023 +0300 | main                | f7068021310aa96500745c2b6557fef9d4c9208f | alex <asd>                                          | feat: add new file rectangle.py                                                                |
+| Thu Mar 4 14:55:29 2021 +0300  | main                |d078c8d9ee6155f3cb0e577d28d337b791de28e | smartiqa <info@smartiqa.ru>                         | L-03: Docs added                                                                               |
+| Thu Mar 4 14:54:08 2021 +0300  | main                | 8ba9aeb3cea847b63a91ac378a2a6db758682460 | smartiqa <info@smartiqa.ru>                         | L-03: Circle and square added                                                                  |
