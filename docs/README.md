@@ -209,12 +209,18 @@ Manual passed: 8/24 (0.33%)
 
 Autotests passed: 8/24 (0.33%) 
 
+Action test (Windows) - **Failed**
+Action test (Ubunta) - **Failed**
+
 ## History of project
 
 | Date                           | branch              | Hash    | Author                                              | Comments                                                                                       |
 |--------------------------------|---------------------|---------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Thu Nov 23 10:08:15 2023 +0300 | tests_343109        |c6e12fcccfa7da6b5997060576a72223e8776c86| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | tests and refactor: added tests in Triangle.py and Square.py, change square.py test class name |                                                                     |
-| Wed Nov 22 20:54:58 2023 +0300 | tests_343109        |c6e12fcccfa7da6b5997060576a72223e8776c86| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | test: added tests in Circle.py and Rectangle.py                                                |
+|Thu Dec 21 01:21:52 2023 +0300 |cicd_343109 |309dc3bf1d3e8218180e8d84d47796f0e6234c05| MARSIII| docs : Update README |
+|Thu Dec 21 01:18:19 2023 +0300 |cicd_343109 |7cc40bdfb7c73ec59dffb5dab6fb3057ede64868| MARSIII| test : rename file .github/..|
+| Thu Dec 21 01:04:39 2023 +0300 |cicd_343109|80f9ff116e7c73d09bb7f2c58b78f97252adf8f5 |MARSIII| test: fix unittest workflow| 
+| Thu Dec 21 00:59:24 2023 +0300 |cicd_343109 |3c1f5ad60c278f85247a6afa3c035b49eae3bf72| MARSIII| test: add unittest workflow|| Thu Nov 23 10:08:15 2023 +0300 | tests_343109        |c6e12fcccfa7da6b5997060576a72223e8776c86| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | tests and refactor: added tests in Triangle.py and Square.py, change square.py test class name |
+| Wed Nov 22 20:54:58 2023 +0300 | tests_343109        |c6e12fcccfa7da6b5997060576a72223e8776c86| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | test: added tests in Circle.py and Rectangle.py |
 | Wed Oct 11 21:47:48 2023 +0300 | documentation_343109 | d8e44c304504856306729ff89ad0b935b7ffb8e5| Alexander Shabalin M3118 <Satanicsevensins@mail.ru> | fix: add comments in circle.py, rectangle.py, square.py, triangle.py                           |
 | Wed Sep 27 21:41:21 2023 +0300 | main                | 07584aac29022476653568476a52415d4a8fea3c | alex <asd>                                          | fix, feat: create file rectange.py and add new file triangle.py                                |
 | Wed Sep 27 21:29:12 2023 +0300 | main                | f7068021310aa96500745c2b6557fef9d4c9208f | alex <asd>                                          | feat: add new file rectangle.py                                                                |
