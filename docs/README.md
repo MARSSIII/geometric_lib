@@ -209,6 +209,9 @@ Manual passed: 8/24 (0.33%)
 
 Autotests passed: 8/24 (0.33%) 
 
+Action test (Windows) - **Failed**
+Action test (Ubunta) - **Failed**
+
 ## History of project
 
 | Date                           | branch              | Hash    | Author                                              | Comments                                                                                       |
